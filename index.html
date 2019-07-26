@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IMSS</title>
+  	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="open-iconic-master/css/open-iconic-bootstrap.min.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Tutorial Código Infarto <span class="oi oi-pulse"></span></h3>
+            </div> <!-- sidebar-header -->
+
+            <ul class="list-unstyled components">
+
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Inicio <span class="oi oi-home"></span></a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="bienvenida.html" target="cuadro">Bienvenida</a>
+                        </li>
+                        <li>
+                            <a href="inicio.html" target="cuadro">Objetivo</a>
+                        </li>
+                        <li>
+                            <a href="inicio.html" target="cuadro">Contextualizacion</a>
+                        </li>
+						<li>
+                            <a href="introduccion.html" target="cuadro">Introducción</a>
+                        </li>
+                    </ul>
+                </li>
+				
+                <li>
+                    <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Primer y segundo nivel <span class="oi oi-tag"></span></a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu1">
+						<li>
+                            <a href="001.html" target="cuadro">Protocolo de atención: Código infarto</a>
+						</li>
+						<li>
+                            <a href="002.html" target="cuadro">Coordinador del Código Infarto</a>
+						</li>
+						<li>
+                            <a href="003.html" target="cuadro">Personal de Vigilancia</a>
+						</li>
+						<li>
+                            <a href="003.html" target="cuadro">Asistente médica de Urgencias</a>
+						</li>
+						<li>
+                            <a href="003.html" target="cuadro">Personal de Camillería</a>
+                        </li>
+                        <li>
+                            <a href="003.html" target="cuadro">Personal de Trabajo Social</a>
+                        </li>
+						<li>
+							<a href="004.html" target="cuadro">Médico asignado al Triage</a>
+                        </li>
+						<li>
+                            <a href="005.html" target="cuadro">Médico de Urgencias de primer contacto responsable del Código</a>
+                        </li>
+						<li>
+                            <a href="006.html" target="cuadro">Enfermera general y/o Especialista (asignada al Código infarto)</a>
+                        </li>
+						<li>
+                            <a href="007.html" target="cuadro">Coordinador del Código Infarto</a>
+                        </li>
+                    </ul>
+                </li>
+				
+                <li>
+                    <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Tercer nivel <span class="oi oi-tag"></span></a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu2">
+						<li>
+                            <a href="008.html" target="cuadro">Protocolo de atención: Código infarto</a>
+						</li>
+						<li>
+                            <a href="009.html" target="cuadro">Coordinador del Código Infarto</a>
+						</li>
+						<li>
+                            <a href="009.html" target="cuadro">Médico de Urgencias responsable del Código infarto en la Unidad Médica con sala de hemodinamia</a>
+						</li>
+						<li>
+                            <a href="010.html" target="cuadro">Cardiólogo(a) intervencionista responsable</a>
+						</li>
+						<li>
+                            <a href="011.html" target="cuadro">Médico responsable del Código infarto especialista en la UCI o UCIC</a>
+                        </li>
+                        <li>
+                            <a href="011.html" target="cuadro">Paciente</a>
+                        </li>
+                    </ul>
+                </li>
+				
+				<li>
+                    <a href="012.html" target="cuadro">Mejoras que se esperan con el Código infarto <span class="oi oi-heart"></span> </a>
+                </li>
+				<li>
+                    <a href="013.html" target="cuadro">Conclusiones <span class="oi oi-task"></span> </a>
+                </li>
+				<li>
+                    <a href="creditos.html" target="cuadro">Créditos <span class="oi oi-people"></span></a>
+                </li>			
+				<li>
+                    <a onClick="parent.cerrar123();">Salir <span class="oi oi-share-boxed"></span></a>
+                </li>
+            </ul> <!-- list-unstyled -->
+        </nav>
+
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="row">
+			
+				<div class="col-9">
+					<p><img class="mx-auto img-fluid" src="imgs/logoIMSS.png" width="50" alt="logoIMSS.png" ></p>
+				</div> <!-- col -->
+				<div class="col-3">		
+					<div class="container">
+						<button type="button" id="sidebarCollapse" class="navbar-btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div> <!-- col -->
+			</div> <!-- row -->				
+            </nav>
+				<iframe name="cuadro" frameBorder="0" src="bienvenida.html" width="100%" height="100%">
+				</iframe>
+
+        </div> <!-- content -->	
+    </div> <!-- wrapper -->	
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
