@@ -1,0 +1,97 @@
+/* Turquesa estilos */
+/* Autores:Carlos Vega y Ricardo Mora*/
+
+
+
+/* ---------------------- Color de fondo del contenido - INICIA ---------------------- */
+.contenido{
+	border: 1px solid rgba(3,217,205,0.2); /* Color según el template*/	
+	background-color: rgba(3,217,205,0.2); /* Color según el template*/
+}
+/* ---------------------- Color de fondo del contenido - TERMINA ---------------------- */
+
+
+/* ---------------- BORDE IMAGENES - INICIA ---------------------- */	
+.bordeFoto{ 
+	border: #03D9CD 5px solid;
+	border-radius: 1px; 
+	box-shadow: 2px 2px 3px #000000; 
+	-webkit-box-shadow: 2px 2px 3px #000000; 
+	-moz-box-shadow: 2px 2px 3px #000000;
+	box-shadow: 2px 2px 3px #000000;
+	}
+/* ---------------- BORDE IMAGENES - TERMINA ---------------------- */
+
+/* ---------------- FOOTER - INICIA ---------------------- */	
+#piepagina{ 
+	margin-top:30px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:98%;
+	height:10px; 
+	border:#027771 1px solid; /* Color según el template*/
+	background-color:#03D9CE; /* Color según el template*/
+	-webkit-box-shadow: 2px 2px 1px #888888;
+	-moz-box-shadow: 2px 2px 1px #888888;
+	box-shadow: 2px 2px 1px #888888; 
+	}
+/* ---------------- FOOTER - TERMINA ---------------------- */
+
+/* ---------------- TITULOS OCULTOS - INICIA ---------------------- */
+.cabecera-up { 
+ 	border-top:#026b64 1px solid; 
+	border-bottom:#026b64 2px solid;
+}
+/* ---------------- TITULOS OCULTOS - TERMINA ---------------------- */
+
+/* ---------------- CUADRO ICONO - INICIA ---------------------- */
+.cuadroIcono{
+	display: block;
+	max-width: 700px;
+	border-radius: 8px 8px 8px 8px;
+	position: relative;
+	padding: 20px 20px 0 77px;
+	-webkit-box-shadow: 2px 2px 3px #555555;
+	-moz-box-shadow: 2px 2px 3px #555555;
+	box-shadow: 2px 2px 3px #555555;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	background: -moz-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: -ms-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: -o-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: -webkit-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: linear-gradient(0deg, #75EAE4, #03D9CD);
+	border: 2px solid #027771;
+}
+
+.cuadroIcono p{
+	color: #000000;
+}
+
+.cuadroIconoCentro{
+	position:absolute;
+	display: block;
+	margin-left:auto; 
+	margin-right:auto; 
+	top:-17px;
+	left:0; 
+	right:0;
+	max-width:185px;
+	border-radius:75px;
+	padding: 3px 15px 3px 15px;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	background: -moz-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: -ms-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: -o-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: -webkit-linear-gradient(0deg, #75EAE4, #03D9CD);
+	background: linear-gradient(0deg, #75EAE4, #03D9CD);
+	border: 2px solid #027771;
+	color: white !important;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+/* ---------------- CUADRO ICONO - TERMINA ---------------------- *
